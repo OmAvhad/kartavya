@@ -1,0 +1,27 @@
+{
+  "name": "kartavya-backend",
+  "version": "1.0.0",
+  "description": "Backend for kartavya application",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmAvhad/kartavya.git"
+  },
+  "author": "Om",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OmAvhad/kartavya/issues"
+  },
+  "homepage": "https://github.com/OmAvhad/kartavya#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.6.3",
+    "nodemon": "^3.1.7"
+  }
+}
